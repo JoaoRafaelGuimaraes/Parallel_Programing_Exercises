@@ -58,8 +58,9 @@ int	taskid,                     /* this task's unique id */
 	dest, source,               /* to - from for message send-receive */
 	left,right,        /* neighbor tasks */
 	msgtype,                    /* for message types */
-	rc,start,end,               /* misc */
+   start,end,               /* misc */
 	i,ix,iy,iz,it;              /* loop variables */
+int rc = 0;
 MPI_Status status;
 
 
